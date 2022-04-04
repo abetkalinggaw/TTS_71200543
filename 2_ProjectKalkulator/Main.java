@@ -11,8 +11,7 @@ public class Main
         Operator op = new Operator("TaMbah");
         Kalkulator k = new Kalkulator(b1,b2,op);
         k.hitung();
-        Kalkulator k2 = new Kalkulator(new BilanganString("dua"),new
-                BilanganString("tiga"),new Operator("pangkat"));
+        Kalkulator k2 = new Kalkulator(new BilanganString("dua"), new BilanganString("tiga"), new Operator("pangkat"));
         k2.hitung();
     }
 }
